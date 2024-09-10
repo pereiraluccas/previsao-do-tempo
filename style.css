@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(2, 115, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#box{
+    /*background-color: white; /* Cor de fundo para a div */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Efeito de sombra */
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    text-align: center;
+    height: 30px;
+    width: 200px;
+  
+}
+button{
+    background-color: rgba(18, 109, 18, 0.548);
+    color: white;
+    cursor: pointer;
+    height: 20px;
+    width: 100px;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+.buscar{
+    display: flex;
+    flex-direction: column;
+  
+    width: 300px;
+    padding-bottom: 100px;
+    align-items: center;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+img{
+    width: max-content;
+    height: auto auto;
+}
+.lugar{
+    color: white;
+}
